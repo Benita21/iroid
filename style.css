@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+body{
+    @media(max-width:768px){
+        width: 100%;
+        padding-right: .4rem;
+            }
+}
+.main-container{
+    @media(max-width:768px){
+width: 90%;
+margin-right: .9rem;
+    }
+    width: 40%;
+    background: linear-gradient(to right, rgb(8, 123, 168),rgb(9, 8, 46));
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 1rem;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem;
+    /* background-color: rgba(157, 87, 163, 0.103); */
+.form{
+    width: 70%;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgb(58, 167, 201);
+    border-radius: .5rem;
+    @media(max-width:768px){
+        width: 100%;
+            }
+}
+h4{
+    font-size: 1.3rem;
+    font-style: italic;
+    color: rgba(252, 231, 197, 0.596);
+    
+}
+p{
+    color: rgb(12, 11, 11);
+}
+a{
+    background-color: rgba(4, 45, 48, 0.425);
+    padding: .1rem;
+    border-radius: .4rem;
+    /* color:rgb(143, 125, 91) */
+    color: rgba(252, 231, 197, 0.596);
+}
+h1{
+    font-style:italic;
+    color: rgba(252, 231, 197, 0.596);
+}
+p{
+    color: rgb(2, 2, 44);
+    font-style: inherit;
+}
+}
